@@ -1,0 +1,81 @@
+body{
+    /*Make both margin in body and H1 to 0 to override border problems*/
+    margin: 0;
+    text-align: center; /*Aligning*/
+    font-family: 'Merriweather', serif;
+}
+p{
+    text-align: justify;
+    padding-left: 20px ;
+    padding-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    line-height: 1.5; /*line spacing*/
+}
+
+h1{
+    margin-top: 0;
+    width: 30%;
+    margin: 0 auto 0 auto;   /*aligning auto H1 30%box ;;; Top-R-B-Left*/
+    font-family: 'Sacramento', cursive;
+    font-size: 4em ; /*use em or percentages alway to make autoscale*/
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.h3frmt{
+    text-align: left;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(9, 158, 237);
+    font-weight: bolder;
+    
+    
+}
+.div1 {
+    background-color: rgba(173, 252, 252, 0.748);
+    position: relative;
+    padding-top: 100px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100Px auto;
+
+}
+
+.undrline{
+    text-decoration: underline;
+}
+
+/*Css Box model: (from outermost to inner most): Margin, back color, back image, padding, border */
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.myimg {
+    height: 110px;
+    width: 110px;
+}
+.codeimg{
+    float: left; /*use float for texts */
+}
+.bottom-container{
+    background-color: #66BFBF ;
+}
+.contact-me{
+    margin-top: 0;
+    background-color: #66BFBF ;
+}
